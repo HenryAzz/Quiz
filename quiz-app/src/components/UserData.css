@@ -1,0 +1,11 @@
+
+
+
+.user{
+    display: flex;
+    align-items: center;
+ 
+    padding: 30px 30px 0 30px;
+   
+    justify-content: space-between;
+}

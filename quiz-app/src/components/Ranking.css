@@ -1,0 +1,38 @@
+.ranking{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   
+    padding: 20px 50px;
+    background-color: rgba(121, 80, 29, 0);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+
+}
+
+.ranking_cont{
+
+}
+
+.data{
+    display: flex;
+align-items: center;
+}
+
+.titleRanking{
+    margin:0;
+    color: #323232;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 17px; /* 141.667% */
+}
+
+.pRanking{
+    color: #3EB8D4;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 17px; /* 94.444% */
+}

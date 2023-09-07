@@ -1,0 +1,69 @@
+
+
+.border_progress{
+    border-radius: 17px;
+    background-color: #fff;
+    border: 1px solid #efefef;
+}
+
+.quiz_option{
+border: 3px whitesmoke solid;
+font-size: 18px;
+font-weight: 500;
+font-family: Roboto;
+
+}
+
+.true{
+    background-color: #dcf8ff;
+    border: 2px solid #3eb8d4;
+    color:#3eb8d4 ;
+    font-size: 18px;
+font-weight: 500;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 500;
+}
+
+.false{
+    background-color: #ffdfdc;
+    border: 2px solid #ff5341;
+    color:#ff5341 ;
+    font-size: 18px;
+font-weight: 500;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 500;
+}
+
+.end{
+    position: fixed; /* O puedes usar 'position: absolute' según tus necesidades */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999; /* Un valor alto para estar por encima de otros elementos */
+    background-color: white; /* Color de fondo, puedes personalizarlo */
+    padding: 20px;
+    border: 1px solid #ccc; /* Borde opcional */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+    text-align: center;
+    font-size: 18px;
+font-weight: 500;
+font-family: Roboto;
+
+}
+
+.quiz{
+    padding: 20px 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+@media (max-width: 1000px) {
+    .quiz {
+        margin: 0;
+     
+        padding: 10px;
+    }
+  }
