@@ -11,11 +11,40 @@
 .category{
     min-width:155px;
     min-height:155px;
-
+    font-size: x-large;
     border-radius: 14px;
 background: #FFF;
 box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.12);
 padding: 10px; /* Agrega espacio interior para separar del borde */
+}
+
+@media (max-width:400px){
+    .category{
+       width: 100px !important;
+       height: 100px !important;
+       min-width: 110px !important;
+       min-height:110px !important; 
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-end !important;
+    position: relative;
+ 
+    }
+    .category-icon{
+        width: 20px !important;
+        height: 20px !important;
+        position: absolute;
+        top: -10px !important;
+    }
+    .Options{
+        gap: 30px 0 !important;
+    }
+    .category-title{
+        font-size: 10px !important;
+    }
+    .category-questions{
+        font-size: 12px !important;
+    }
 }
 
 .category-icon{

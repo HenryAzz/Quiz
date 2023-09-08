@@ -22,18 +22,22 @@ export const Ranking = () => {
     <section className="ranking_cont" style={{padding:"30px"}}>
         <div className="ranking" >
         <div className="data">
-          <img style={{width:"50px", height:"50px", marginRight:"15px"}} src="/tr.png"></img>
+          <img className="img" src="/tr.png"></img>
           <div >
-          <p style={{margin:"0",fontWeight:"500", fontSize:"20px"}}>Ranking</p>
-          <p style={{margin:"0",fontSize:"26px",fontWeight:"700",color: "#3eb8d4"}}>{data.ranking}</p>
+          <p className="titleRanking">Ranking</p>
+          <p className="pRanking">{data.ranking}</p>
           </div>
         </div>
+        <div className="data" >
+
+        <img  src="/lin.png"></img>
+        </div>
         <div className="data">
-          <img style={{width:"50px", height:"50px", marginRight:"15px"}} src="/ss.png"></img>
+          <img className="img" src="/ss.png"></img>
           <div >
 
-          <p style={{margin:"0",fontWeight:"500", fontSize:"20px"}}>Points</p>
-          <p style={{margin:"0",fontSize:"26px",fontWeight:"700",color: "#3eb8d4"}}>{data.points}</p>
+          <p className="titleRanking">Points</p>
+          <p className="pRanking">{data.points}</p>
           </div>
         </div>
       

@@ -1,22 +1,28 @@
 .ranking{
-   display: grid;
-   grid-template-columns: 50% 50%;
+
    
-    padding: 20px 50px;
+    padding: 2% 5%;
     background-color: rgba(121, 80, 29, 0);
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.08);
     border-radius: 16px;
+    display: grid;
+    align-items: center; /* Centra verticalmente el contenido */
+  text-align: center; 
+    grid-template-columns: 1fr 1px 1fr; /* Tres columnas de igual ancho */
+    gap: 5px; 
+    justify-items: center;
 
 }
 
-.ranking_cont{
-
-}
 
 .data{
+width: auto;
+    margin: 0;
     display: flex;
 align-items: center;
+
 }
+
 
 .titleRanking{
     margin:0;
@@ -36,3 +42,36 @@ font-style: normal;
 font-weight: 700;
 line-height: 17px; /* 94.444% */
 }
+
+
+.img{
+   width:50px; 
+   height:50px;
+ marginRight:15px;
+}
+@media (max-width: 700px) {
+    .titleRanking{
+        margin:0;
+        color: #323232;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px; /* 141.667% */
+
+    }
+    .pRanking {
+        color: #3EB8D4;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 17px; /* 94.444% */
+      
+    }
+    .img{
+        width:40px; 
+        height:40px;
+      marginRight:5px;
+     }
+  }
