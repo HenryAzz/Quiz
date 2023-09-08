@@ -37,7 +37,7 @@ padding: 10px; /* Agrega espacio interior para separar del borde */
         top: -10px !important;
     }
     .Options{
-        gap: 30px 0 !important;
+        gap: 30px 10px !important;
     }
     .category-title{
         font-size: 10px !important;
